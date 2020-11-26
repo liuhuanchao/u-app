@@ -1,0 +1,39 @@
+@import('../../stylus/index.styl')
+.cate
+    display flex
+    margin-top:$marginBottom
+    .left
+         width:$paddingTop
+         margin-top: -0.5rem
+         div
+            text-align: center
+            font-size: $h3 
+            // color: $font-color1
+            line-height: $headerHeight
+.select 
+        color: $primary
+    .right
+        flex 1
+        overflow hidden
+        margin-top: -0.5rem
+        .item
+            width 50%
+            float left
+            .con
+                margin: $margin
+                height $paddingTop
+                border-radius: $margin
+                overflow hidden 
+                position relative 
+                img 
+                    width 100%
+                    height 100%
+                div
+                    position absolute
+                    left 0
+                    bottom 0
+                    background: $primary1
+                    color: $font-fff
+                    width 100%
+                    text-align: center
+                    // line-height: $marginTop   
